@@ -132,17 +132,7 @@ for j in Data.keys():
     #df1=sklearn.preprocessing.normalize(full)
     #print(df)
     #df=pd.DataFrame(data=df1,index=np.array(range(0,72)),columns=np.array(range(0,15)))
-    '''
-    full1=np.array(full)
-    f=0
-    farray=[]
-    for i in range(0,360):
-        for j in range(0,30):
-            full[i][j]
-            f=f+full[i][j]
-        farray.append(f/30)
-        f=0
-    '''
+  
     #print(farray)
     #full1=np.delete(full1, np.s_[14:30], axis=1)
     #full1 = np.delete(full1, [14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30], axis=1)
